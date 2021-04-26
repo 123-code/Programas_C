@@ -11,7 +11,7 @@ float area,p;
   printf("ingrese el tercer valor:");
   scanf("%d",&v3);
 //  Si se cumple la propiedad de que la suma de los dos lados menores es menor a la del lado restante, es un triángulo.
-if((v1 + v2 < v3) || (v2 + v3 < v1) || (v1 + v3 < v2)){
+if(v1 + v2 < v3){
   printf("Ha ingresado los valores de un triangulo !");
   p= (v1 +v2 +v3)/2;}
 else {
